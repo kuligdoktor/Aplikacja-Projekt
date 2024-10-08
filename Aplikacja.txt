@@ -18,6 +18,5 @@ Aplikacja Trener i Śledzenie Treningów
    - Użytkownicy mogą brać udział w wyzwaniach, zdobywać nagrody i porównywać wyniki z innymi. Aplikacja motywuje do osiągania celów, np. „30-dniowe wyzwanie przysiadów”.
 
 Wdrożenie w Android Studio:
-1. Pose Estimation: Użyj TensorFlow Lite z MediaPipe, aby analizować ruchy ciała.
-2. Komendy głosowe: Zintegruj Google Speech Recognition API oraz Text-to-Speech (TTS), aby umożliwić sterowanie głosowe.
-3. Integracja czujników: GPS i innych czujniki do śledzenia aktywności fizycznej.
+1. Komendy głosowe: Zintegrowanie Google Speech Recognition API oraz Text-to-Speech (TTS), aby umożliwić sterowanie głosowe.
+2. Integracja czujników: GPS i innych czujniki do śledzenia aktywności fizycznej.
