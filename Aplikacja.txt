@@ -1,0 +1,30 @@
+
+Aplikacja Trener i Śledzenie Treningów
+
+Aplikacja fitness, która używa kamery, mikrofonu i czujników telefonu, aby pomóc w ćwiczeniach i śledzić postępy. Poniżej kluczowe funkcje:
+
+1. Śledzenie formy ćwiczeń (Kamera + AI)
+   - Kamera śledzi ruchy ciała i formę podczas ćwiczeń. Aplikacja wykorzystuje modele AI, aby analizować postawę ciała i sugerować poprawki, np. "Wyprostuj plecy" lub "Pogłęb przysiad".
+
+2. Feedback głosowy i coaching (Mikrofon)
+   - Użytkownicy mogą używać komend głosowych do sterowania treningiem, np. "Rozpocznij trening" lub "Wstrzymaj trening". Aplikacja daje także wskazówki audio podczas ćwiczeń.
+
+3. Automatyczne liczenie powtórzeń (Kamera + Akcelerometr)
+   - Kamera liczy powtórzenia automatycznie podczas ćwiczeń takich jak przysiady lub pompki. Dla skoków i szybkich ruchów wykorzystywany jest akcelerometr.
+
+4. Personalizacja treningów
+   - Użytkownicy mogą wybierać gotowe plany treningowe lub tworzyć własne. Aplikacja śledzi postępy i wyświetla raporty, np. o liczbie wykonanych powtórzeń i spalonych kaloriach.
+
+5. Komendy głosowe i asystent (Mikrofon)
+   - Możliwość sterowania treningiem za pomocą komend głosowych, np. "Następne ćwiczenie". Aplikacja może być zintegrowana z Asystentem Google lub Alexą.
+
+6. Śledzenie aktywności na świeżym powietrzu (GPS)
+   - Aplikacja wykorzystuje GPS do śledzenia biegów, spacerów czy jazdy na rowerze. Pokazuje dystans, trasę, prędkość oraz spalone kalorie.
+
+7. Gamifikacja i wyzwania
+   - Użytkownicy mogą brać udział w wyzwaniach, zdobywać nagrody i porównywać wyniki z innymi. Aplikacja motywuje do osiągania celów, np. „30-dniowe wyzwanie przysiadów”.
+
+Wdrożenie w Android Studio:
+1. Pose Estimation: Użyj TensorFlow Lite z MediaPipe, aby analizować ruchy ciała.
+2. Komendy głosowe: Zintegruj Google Speech Recognition API oraz Text-to-Speech (TTS), aby umożliwić sterowanie głosowe.
+3. Integracja czujników: Użyj akcelerometru, GPS i innych czujników do śledzenia aktywności fizycznej.
