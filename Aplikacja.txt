@@ -16,6 +16,11 @@ Aplikacja Trener i Śledzenie Treningów
 
 5. Gameifikacja i wyzwania
    - Użytkownicy mogą brać udział w wyzwaniach, zdobywać nagrody i porównywać wyniki z innymi. Aplikacja motywuje do osiągania celów, np. „30-dniowe wyzwanie przysiadów”.
+6.Łączenie konta z kontem facebook 
+
+7.Accelerometr
+
+8.Genertor szablonu ćwiczeń
 
 Wdrożenie w Android Studio:
 1. Komendy głosowe: Zintegrowanie Google Speech Recognition API oraz Text-to-Speech (TTS), aby umożliwić sterowanie głosowe.
